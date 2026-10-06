@@ -2,6 +2,7 @@
 ### Real-Time Computer Vision Workout Trainer & Biomechanics Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Live%20Demo-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white)](https://smart-ai-gym-coach.netlify.app/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-00d4ff.svg?style=for-the-badge&logo=github&logoColor=white)](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Pose%20Tracking-ff6f00.svg?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/mediapipe)
 [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
@@ -11,7 +12,7 @@
 **Your form. Analyzed. Corrected. In milliseconds.**  
 A high-performance showcase landing page for an AI-powered fitness assistant that tracks skeletal kinematics, enforces exercise form standards, and provides real-time coaching feedback.
 
-[**Explore Landing Page**](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/) • [**Launch Streamlit HUD App**](https://smart-realtime-ai-gym-coach.streamlit.app/) • [**Report Bug**](../../issues) • [**Request Feature**](../../issues)
+[**Explore Landing Page (Netlify)**](https://smart-ai-gym-coach.netlify.app/) • [**GitHub Pages Alternative**](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/) • [**Launch Streamlit HUD App**](https://smart-realtime-ai-gym-coach.streamlit.app/) • [**Report Bug**](../../issues) • [**Request Feature**](../../issues)
 
 ---
 
@@ -60,7 +61,7 @@ This repository contains the **official showcase landing page** featuring a dark
 | **Computer Vision Engine** | Google MediaPipe Pose, OpenCV (Python) |
 | **Application UI & Streamer** | Streamlit, Streamlit-WebRTC |
 | **Audio & AI Logic** | Groq API (Low-latency Audio & LLM Coaching) |
-| **Hosting & CI/CD** | GitHub Pages, GitHub Actions Workflow |
+| **Hosting & CI/CD** | Netlify (Primary Live Site), GitHub Pages, GitHub Actions Workflow |
 
 ---
 
@@ -135,7 +136,15 @@ If you prefer to run or develop the backend Streamlit AI Gym Coach locally:
 
 ---
 
-## 🌐 Deploying to GitHub Pages
+## 🌐 Live Deployments
+
+- 🚀 **Production Landing Page (Netlify)**: [https://smart-ai-gym-coach.netlify.app/](https://smart-ai-gym-coach.netlify.app/)
+- 📦 **GitHub Pages Alternative**: [https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/)
+- ⚡ **Streamlit HUD Cloud App**: [https://smart-realtime-ai-gym-coach.streamlit.app/](https://smart-realtime-ai-gym-coach.streamlit.app/)
+
+---
+
+## 🛠️ Deploying to GitHub Pages
 
 This repository comes pre-configured with **GitHub Actions** for zero-config automated deployment:
 
