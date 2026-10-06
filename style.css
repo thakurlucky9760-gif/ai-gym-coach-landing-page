@@ -726,6 +726,8 @@ img { display: block; width: 100%; height: 100%; object-fit: contain; }
 }
 .footer-mono {
   font-family: var(--font-body);
+}
+
 /* ── EXERCISE VIDEO TABS ── */
 .video-tabs {
   display: flex;
