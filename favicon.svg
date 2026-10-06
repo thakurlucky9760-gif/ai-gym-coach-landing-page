@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gymGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5a623"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="14" fill="#0a0a0a" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <!-- Outer Hexagon Target -->
+  <polygon points="32,8 52,19 52,45 32,56 12,45 12,19" fill="none" stroke="url(#gymGlow)" stroke-width="2" stroke-linejoin="round" opacity="0.6"/>
+  <!-- Dumbbell Icon -->
+  <g filter="url(#glow)">
+    <!-- Left Weight -->
+    <rect x="18" y="22" width="5" height="20" rx="2" fill="#f5a623"/>
+    <rect x="23" y="26" width="3" height="12" rx="1" fill="#f5a623" opacity="0.8"/>
+    <!-- Center Bar -->
+    <rect x="26" y="29.5" width="12" height="5" rx="1.5" fill="#e8e8e8"/>
+    <!-- Right Weight -->
+    <rect x="38" y="26" width="3" height="12" rx="1" fill="#00d4ff" opacity="0.8"/>
+    <rect x="41" y="22" width="5" height="20" rx="2" fill="#00d4ff"/>
+  </g>
+  <!-- AI Center Pulse Dot -->
+  <circle cx="32" cy="32" r="2.5" fill="#00d4ff"/>
+</svg>
