@@ -5,13 +5,13 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-00d4ff.svg?style=for-the-badge&logo=github&logoColor=white)](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Pose%20Tracking-ff6f00.svg?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/mediapipe)
 [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App%20HUD-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App%20HUD-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)](https://smart-realtime-ai-gym-coach.streamlit.app/)
 [![Tech Stack](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](index.html)
 
 **Your form. Analyzed. Corrected. In milliseconds.**  
 A high-performance showcase landing page for an AI-powered fitness assistant that tracks skeletal kinematics, enforces exercise form standards, and provides real-time coaching feedback.
 
-[**Explore Live Demo**](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/) • [**Report Bug**](../../issues) • [**Request Feature**](../../issues)
+[**Explore Landing Page**](https://thakurlucky9760-gif.github.io/ai-gym-coach-landing-page/) • [**Launch Streamlit HUD App**](https://smart-realtime-ai-gym-coach.streamlit.app/) • [**Report Bug**](../../issues) • [**Request Feature**](../../issues)
 
 ---
 
@@ -123,12 +123,15 @@ Then navigate to `http://localhost:3000` in your browser.
 If you use VS Code, install the **Live Server** extension, right-click `index.html`, and select **"Open with Live Server"**.
 
 ### Connecting to the Live Streamlit App
-By default, the **"Try it live"** CTA points to `http://localhost:8501`. If you are running the backend Streamlit AI Gym Coach locally:
-1. Start your Streamlit server:
+By default, the **"Try it live"** CTA points directly to the deployed cloud instance:
+🔗 **[smart-realtime-ai-gym-coach.streamlit.app](https://smart-realtime-ai-gym-coach.streamlit.app/)**
+
+If you prefer to run or develop the backend Streamlit AI Gym Coach locally:
+1. Start your local Streamlit server:
    ```bash
    streamlit run app.py
    ```
-2. Click **"Try it live"** on the landing page to enter the active workout HUD session.
+2. Change the `href` in `index.html` to `http://localhost:8501`.
 
 ---
 
